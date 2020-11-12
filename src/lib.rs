@@ -4,6 +4,8 @@ use std::{
     net::TcpStream,
 };
 
+pub mod server;
+
 // Generic connection handler function
 pub fn handle_connection<H, K, V>(
     stream: TcpStream,
